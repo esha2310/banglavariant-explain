@@ -1,0 +1,162 @@
+{
+  "slug": "banglavariant-explain",
+  "name": "BanglaVariant-Explain",
+  "flood": false,
+  "zip": "BanglaVariant_Explain_GitHub_Ready.zip",
+  "eyebrow": "GENOMICS · EVIDENCE · CONTEXT",
+  "eyebrow_bn": "GENOMICS · প্রমাণ · CONTEXT",
+  "headline": "Your variant.",
+  "headline_bn": "আপনার variant।",
+  "headline2": "A clearer evidence trail.",
+  "headline2_bn": "প্রমাণের পথ আরও পরিষ্কার।",
+  "description": "Explore genetic variant records, trace the literature, and see what population data can—and cannot—tell us about South Asian research.",
+  "description_bn": "Genetic variant-এর record ও গবেষণাপত্র পড়ুন। South Asian population data কোথায় আছে, কোথায় নেই—তা স্পষ্টভাবে দেখুন।",
+  "hero_note": "Research and education only. Never a personal diagnosis.",
+  "hero_note_bn": "শুধু গবেষণা ও শিক্ষা; ব্যক্তিগত diagnosis নয়।",
+  "orbit": "Interpret the evidence. Respect the uncertainty.",
+  "orbit_bn": "প্রমাণ বুঝুন, অনিশ্চয়তা মানুন।",
+  "section_title": "From a variant to its context.",
+  "section_title_bn": "Variant থেকে প্রমাণের প্রেক্ষাপট।",
+  "trust": [
+    [
+      "ANNOTATION",
+      "ANNOTATION",
+      "ClinVar snapshot",
+      "ClinVar snapshot"
+    ],
+    [
+      "LITERATURE",
+      "গবেষণাপত্র",
+      "Source-linked abstracts",
+      "উৎসসহ abstract"
+    ],
+    [
+      "LANGUAGES",
+      "ভাষা",
+      "English + বাংলা",
+      "English + বাংলা"
+    ],
+    [
+      "APPROACH",
+      "পদ্ধতি",
+      "Evidence before inference",
+      "অনুমানের আগে প্রমাণ"
+    ]
+  ],
+  "features": [
+    [
+      "dna",
+      "Variant workspace",
+      "Variant workspace",
+      "Find an exact supported identifier. Keep transcript, genome build and source classification together.",
+      "সঠিক identifier মিলিয়ে transcript, genome build ও source classification একসঙ্গে দেখুন।",
+      "search"
+    ],
+    [
+      "globe",
+      "Population context",
+      "Population context",
+      "Missing South Asian frequency stays missing. An ancestry label is not a nationality or a clinical conclusion.",
+      "South Asian frequency না থাকলে তা missing-ই থাকবে। Ancestry label মানেই nationality নয়।",
+      "population"
+    ],
+    [
+      "book",
+      "Literature evidence",
+      "Literature evidence",
+      "Search licensed research abstracts and open the original publication. Keyword similarity is not proof.",
+      "গবেষণার abstract খুঁজে মূল paper খুলুন। Keyword match প্রমাণের নিশ্চয়তা নয়।",
+      "evidence"
+    ]
+  ],
+  "steps": [
+    [
+      "Identify",
+      "চিহ্নিত করুন",
+      "Use a supported ClinVar ID, HGVS alias or exact VCF coordinate.",
+      "ClinVar ID, HGVS alias বা exact VCF coordinate ব্যবহার করুন।"
+    ],
+    [
+      "Inspect",
+      "পড়ুন",
+      "Read the recorded classification and review status.",
+      "Recorded classification ও review status পড়ুন।"
+    ],
+    [
+      "Contextualize",
+      "Context দেখুন",
+      "Check population availability and original literature.",
+      "Population data আছে কি না ও মূল paper দেখুন।"
+    ],
+    [
+      "Document",
+      "লিখে রাখুন",
+      "Export an evidence snapshot with its limits.",
+      "সীমাবদ্ধতাসহ evidence snapshot export করুন।"
+    ]
+  ],
+  "closing": "Better questions begin with traceable evidence.",
+  "closing_bn": "যাচাইযোগ্য প্রমাণ থেকেই ভালো প্রশ্ন।",
+  "disclaimer": "For research and education only, not medical advice. No validated pathogenicity prediction or Bangladesh-specific clinical performance is claimed.",
+  "disclaimer_bn": "শুধু গবেষণা ও শিক্ষা। Medical advice নয়। Validated pathogenicity prediction বা Bangladesh-specific clinical performance দাবি করা হচ্ছে না।",
+  "auth_title": "See the record. Understand the context.",
+  "auth_title_bn": "Record পড়ুন, context বুঝুন।",
+  "dash_sub": "Source-linked genomic evidence, without invented certainty.",
+  "dash_sub_bn": "উৎসসহ genomic evidence, অযাচাইকৃত সিদ্ধান্ত ছাড়া।",
+  "nav": [
+    [
+      "overview",
+      "home",
+      "Overview",
+      "Overview"
+    ],
+    [
+      "search",
+      "dna",
+      "Variant search",
+      "Variant search"
+    ],
+    [
+      "population",
+      "globe",
+      "Population context",
+      "Population context"
+    ],
+    [
+      "evidence",
+      "book",
+      "Literature evidence",
+      "গবেষণার প্রমাণ"
+    ],
+    [
+      "vcf",
+      "upload",
+      "VCF workspace",
+      "VCF workspace"
+    ],
+    [
+      "results",
+      "chart",
+      "Model status",
+      "Model status"
+    ],
+    [
+      "saved",
+      "save",
+      "Saved records",
+      "Saved records"
+    ],
+    [
+      "methods",
+      "cpu",
+      "Sources & methods",
+      "উৎস ও পদ্ধতি"
+    ],
+    [
+      "about",
+      "help",
+      "About & help",
+      "পরিচয় ও সহায়তা"
+    ]
+  ]
+}

@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="15442" VariationName="NM_000518.5(HBB):c.93-22_95del" VariationType="Deletion" Accession="VCV000015442" Version="39" RecordType="classified" NumberOfSubmissions="18" NumberOfSubmitters="17" DateLastUpdated="2026-04-04" DateCreated="2013-04-04" MostRecentSubmission="2026-04-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="30481" VariationID="15442">
+      <GeneList>
+        <Gene Symbol="HBB" FullName="hemoglobin subunit beta" GeneID="3043" HGNC_ID="HGNC:4827" Source="submitted" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>11p15.4</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="5225464" stop="5227071" display_start="5225464" display_stop="5227071" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="5246695" stop="5248300" display_start="5246695" display_stop="5248300" Strand="-"/>
+          </Location>
+          <OMIM>141900</OMIM>
+        </Gene>
+        <Gene Symbol="LOC106099062" FullName="HBB recombination region" GeneID="106099062" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>11p15.4</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="5226570" stop="5228834" display_start="5226570" display_stop="5228834" Strand="+"/>
+          </Location>
+        </Gene>
+        <Gene Symbol="LOC107133510" FullName="origin of replication at HBB" GeneID="107133510" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>11p15.4</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="5222166" stop="5229620" display_start="5222166" display_stop="5229620" Strand="+"/>
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NM_000518.5(HBB):c.93-22_95del</Name>
+      <CanonicalSPDI>NC_000011.10:5226796:AGCCTAAGGGTGGGAAAATAGACCAA:A</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11p15.4</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="5226797" stop="5226821" display_start="5226797" display_stop="5226821" variantLength="25" positionVCF="5226796" referenceAlleleVCF="CAGCCTAAGGGTGGGAAAATAGACCA" alternateAlleleVCF="C"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="5248027" stop="5248051" display_start="5248027" display_stop="5248051" variantLength="25" positionVCF="5248026" referenceAlleleVCF="CAGCCTAAGGGTGGGAAAATAGACCA" alternateAlleleVCF="C"/>
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.10" sequenceAccession="NC_000011" sequenceVersion="10" change="g.5226798_5226822del" Assembly="GRCh38">
+            <Expression>NC_000011.10:g.5226798_5226822del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.5248028_5248052del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.5248028_5248052del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_042296.1" sequenceAccession="NG_042296" sequenceVersion="1" change="g.329_353del">
+            <Expression>NG_042296.1:g.329_353del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_046672.1" sequenceAccession="NG_046672" sequenceVersion="1" change="g.4733_4757del">
+            <Expression>NG_046672.1:g.4733_4757del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_059281.1" sequenceAccession="NG_059281" sequenceVersion="1" change="g.5251_5275del">
+            <Expression>NG_059281.1:g.5251_5275del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000518.5" sequenceAccession="NM_000518" sequenceVersion="5" change="c.93-22_95del" MANESelect="true">
+            <Expression>NM_000518.5:c.93-22_95del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001574" Type="splice acceptor variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_1232" sequenceAccession="LRG_1232">
+            <Expression>LRG_1232:g.5251_5275del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="LRG_1232t1" sequenceAccession="LRG_1232t1">
+            <Expression>LRG_1232t1:c.93-22_95del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000518.5" sequenceAccession="NM_000518" sequenceVersion="5" change="c.93-22_95delTGGTCTATTTTCCCACCCTTAGGCT" MANESelect="true">
+            <Expression>NM_000518.5:c.93-22_95delTGGTCTATTTTCCCACCCTTAGGCT</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000518.4" sequenceAccession="NM_000518" sequenceVersion="4" change="c.93-22_95del25">
+            <Expression>NM_000518.4:c.93-22_95del25</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_000007.3" sequenceAccession="NG_000007" sequenceVersion="3" change="g.70795_70819del">
+            <Expression>NG_000007.3:g.70795_70819del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="974" DB="HBVAR"/>
+        <XRef ID="CA125307" DB="ClinGen"/>
+        <XRef Type="Allelic variant" ID="141900.0352" DB="OMIM"/>
+        <XRef Type="rs" ID="193922563" DB="dbSNP"/>
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000518.5(HBB):c.93-22_95del AND Beta zero thalassemia" Accession="RCV000016700" Version="36">
+        <ClassifiedConditionList TraitSetID="4683">
+          <ClassifiedCondition DB="MedGen" ID="C0271980">Beta zero thalassemia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="1983-07-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000518.5(HBB):c.93-22_95del AND beta Thalassemia" Accession="RCV000030009" Version="15">
+        <ClassifiedConditionList TraitSetID="4697">
+          <ClassifiedCondition DB="MedGen" ID="C0005283">beta Thalassemia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2026-01-21" SubmissionCount="3">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000518.5(HBB):c.93-22_95del AND not provided" Accession="RCV001052793" Version="33">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2025-03-04" SubmissionCount="6">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000518.5(HBB):c.93-22_95del AND not specified" Accession="RCV001731304" Version="15">
+        <ClassifiedConditionList TraitSetID="9590">
+          <ClassifiedCondition DB="MedGen" ID="CN169374">not specified</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no classifications from unflagged records</ReviewStatus>
+            <Description SubmissionCount="1">no classifications from unflagged records</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000518.5(HBB):c.93-22_95del AND Inborn genetic diseases" Accession="RCV002371773" Version="9">
+        <ClassifiedConditionList TraitSetID="25797">
+          <ClassifiedCondition DB="MedGen" ID="C0950123">Inborn genetic diseases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-06-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000518.5(HBB):c.93-22_95del AND Beta-thalassemia HBB/LCRB" Accession="RCV002465489" Version="16">
+        <ClassifiedConditionList TraitSetID="80504">
+          <ClassifiedCondition DB="MedGen" ID="CN322236">Beta-thalassemia HBB/LCRB</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2023-02-23" SubmissionCount="5">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000518.5(HBB):c.93-22_95del AND Malaria, susceptibility to" Accession="RCV003989288" Version="3">
+        <ClassifiedConditionList TraitSetID="1954">
+          <ClassifiedCondition DB="MedGen" ID="C1970028">Malaria, susceptibility to</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2024-03-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2026-01-21" NumberOfSubmissions="18" NumberOfSubmitters="17" DateCreated="2013-04-04" MostRecentSubmission="2026-04-04">
+        <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Explanation DataSource="ClinVar" Type="public">Pathogenic (15)</Explanation>
+        <Citation Type="general">
+          <ID Source="PubMed">16199547</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">20437613</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">36703223</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">26076396</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">6308558</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">6190800</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23637309</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="80504" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="65989" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Beta-thalassemia HBB/LCRB</ElementValue>
+                <XRef ID="MONDO:0013517" DB="MONDO"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="24933"/>
+                <XRef ID="24933" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Beta-thalassemia (β-thalassemia) has two clinically significant forms, β-thalassemia major and β-thalassemia intermedia, caused by absent or reduced synthesis of the hemoglobin subunit beta (beta globin chain). Individuals with β-thalassemia major present between ages six and 24 months with pallor due to severe anemia, poor weight gain, stunted growth, mild jaundice, and hepatosplenomegaly. Feeding problems, diarrhea, irritability, and recurrent bouts of fever may occur. Treatment with regular red blood cell transfusions and iron chelation therapy allows for normal growth and development and improves prognosis. Long-term complications associated with iron overload include stunted growth, dilated cardiomyopathy, liver disease, and endocrinopathies. Individuals with β-thalassemia intermedia have a more variable age of presentation due to milder anemia that does not require regular red blood cell transfusions from early childhood. Additional clinical features may include jaundice, cholelithiasis, hepatosplenomegaly, skeletal changes (long bone deformities, characteristic craniofacial features, and osteoporosis), leg ulcers, pulmonary hypertension, extramedullary masses of hyperplastic erythroid marrow, and increased risk of thrombotic complications. Individuals with β-thalassemia intermedia are at risk for iron overload secondary to increased intestinal absorption of iron as a result of dysregulation of iron metabolism caused by ineffective erythropoiesis.</Attribute>
+                <XRef ID="NBK1426" DB="GeneReviews"/>
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301599</ID>
+                <ID Source="BookShelf">NBK1426</ID>
+              </Citation>
+              <XRef ID="CN322236" DB="MedGen"/>
+              <XRef ID="MONDO:0013517" DB="MONDO"/>
+              <XRef Type="MIM" ID="613985" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="25797" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32761" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Inborn genetic diseases</ElementValue>
+              </Name>
+              <Citation Type="general" Abbrev="Langer et al., 2012">
+                <ID Source="PubMed">22947299</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="SACHDNC, 2013">
+                <ID Source="PubMed">23037933</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="EASAC/FEAM, 2013">
+                <ID Source="PubMed">23169492</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ESHG/P3G/HUGO/PHGF, 2015">
+                <ID Source="PubMed">25626707</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="Alpha-1 Foundation, 2014">
+                <ID Source="PubMed">24121147</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NBSTRN, 2015">
+                <ID Source="PubMed">24394680</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="EUNENBS, 2014">
+                <ID Source="PubMed">23652378</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NSGC, 2014">
+                <ID Source="PubMed">23881473</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG/ACOG/NSGC/PQF/SMFM, 2015">
+                <ID Source="PubMed">25730230</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="Skirton et al., 2014">
+                <ID Source="PubMed">24022298</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2013">
+                <ID Source="PubMed">23619275</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACOG, 2019">
+                <ID Source="PubMed">31022120</ID>
+              </Citation>
+              <XRef ID="C0950123" DB="MedGen"/>
+              <XRef ID="D030342" DB="MeSH"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="9590" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="16789" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not specified</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">AllHighlyPenetrant</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not specified' was created for use in ClinVar so that submitters can convey the concept that a variant is benign, likely benign, or of uncertain significance for an unspecified set of disorders.  This usage was introduced in 2014 to replace AllHighlyPenetrant.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN169374" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="4697" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="11970" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">beta Thalassemia</ElementValue>
+                <XRef ID="65959000" DB="SNOMED CT"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cooley's anemia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Erythroblastic anemia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Mediterranean anemia</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">BTHAL</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Beta-thalassemia (β-thalassemia) has two clinically significant forms, β-thalassemia major and β-thalassemia intermedia, caused by absent or reduced synthesis of the hemoglobin subunit beta (beta globin chain). Individuals with β-thalassemia major present between ages six and 24 months with pallor due to severe anemia, poor weight gain, stunted growth, mild jaundice, and hepatosplenomegaly. Feeding problems, diarrhea, irritability, and recurrent bouts of fever may occur. Treatment with regular red blood cell transfusions and iron chelation therapy allows for normal growth and development and improves prognosis. Long-term complications associated with iron overload include stunted growth, dilated cardiomyopathy, liver disease, and endocrinopathies. Individuals with β-thalassemia intermedia have a more variable age of presentation due to milder anemia that does not require regular red blood cell transfusions from early childhood. Additional clinical features may include jaundice, cholelithiasis, hepatosplenomegaly, skeletal changes (long bone deformities, characteristic craniofacial features, and osteoporosis), leg ulcers, pulmonary hypertension, extramedullary masses of hyperplastic erythroid marrow, and increased risk of thrombotic complications. Individuals with β-thalassemia intermedia are at risk for iron overload secondary to increased intestinal absorption of iron as a result of dysregulation of iron metabolism caused by ineffective erythropoiesis.</Attribute>
+                <XRef ID="NBK1426" DB="GeneReviews"/>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000521590" DB="Genetic Testing Registry (GTR)"/>
+                <XRef ID="GTR000556526" DB="Genetic Testing Registry (GTR)"/>
+                <XRef ID="GTR000558937" DB="Genetic Testing Registry (GTR)"/>
+                <XRef ID="GTR000592332" DB="Genetic Testing Registry (GTR)"/>
+                <XRef ID="GTR000501386" DB="Genetic Testing Registry (GTR)"/>
+                <XRef ID="GTR000501909" DB="Genetic Testing Registry (GTR)"/>
+                <XRef ID="GTR000522527" DB="Genetic Testing Registry (GTR)"/>
+                <XRef ID="GTR000570317" DB="Genetic Testing Registry (GTR)"/>
+                <XRef ID="GTR000591289" DB="Genetic Testing Registry (GTR)"/>
+                <XRef ID="GTR000556525" DB="Genetic Testing Registry (GTR)"/>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="871"/>
+                <XRef ID="871" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301599</ID>
+                <ID Source="BookShelf">NBK1426</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACOG, 2021">
+                <ID Source="PubMed">17197616</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2023">
+                <URL>https://www.acmg.net/PDFLibrary/Beta-Thalassemia-Major-ACT-Sheet.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Newborn Screening ACT Sheet, Hemoglobin F-Only; Hemoglobin F With Decreased A, 2023</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG Algorithm, 2009">
+                <URL>https://www.acmg.net/PDFLibrary/HB-Screening-Algorithm.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Algorithm, Hb Screening (non-S), 2009</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2023">
+                <URL>https://www.acmg.net/PDFLibrary/Hemoglobin-E-ACT-Sheet.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Newborn Screening ACT Sheet, FEA, Hemoglobin E/Beta Plus Thalassemia, 2023</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG Algorithm, 2023">
+                <URL>https://www.acmg.net/PDFLibrary/Beta-Thalassemia-Algorithm.pdf</URL>
+                <CitationText>ACMG Algorithm, Hemoglobin F Only or F with Decreased A: Transfusion Dependent or Non Transfusion Dependent beta-Thalassemia; Hb beta 0 Thalassemia; Hb beta+/beta+ Thalassemia; Hb beta0/beta+ Thalassemia Screening Result, 2023</CitationText>
+              </Citation>
+              <XRef ID="848" DB="Orphanet"/>
+              <XRef ID="C0005283" DB="MedGen"/>
+              <XRef ID="MONDO:0019402" DB="MONDO"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="4683" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="11956" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Beta zero thalassemia</ElementValue>
+                <XRef ID="86715000" DB="SNOMED CT"/>
+              </Name>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT Sheet, 2023">
+                <URL>https://www.acmg.net/PDFLibrary/Sickle-Cell-Anemia-HBss.pdf</URL>
+                <CitationText>American College of Medical Genetics ACT SHEET, Sickle Cell Anemia, 2023</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2023">
+                <URL>https://www.acmg.net/PDFLibrary/Hemoglobin-EE-ACT-Sheet.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Newborn Screening ACT Sheet, FE, Hemoglobin EE or Hemoglobin E/Beta Zero Thalassemia (Hb EE or Hb E/ß0 Disease), 2023</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2023">
+                <URL>https://www.acmg.net/PDFLibrary/Beta-Thalassemia-Major-ACT-Sheet.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Newborn Screening ACT Sheet, Hemoglobin F-Only; Hemoglobin F With Decreased A, 2023</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG Algorithm, 2009">
+                <URL>https://www.acmg.net/PDFLibrary/HB-Screening-Algorithm.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Algorithm, Hb Screening (non-S), 2009</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG Algorithm, 2023">
+                <URL>https://www.acmg.net/PDFLibrary/Hemoglobin-FS-Algorithm.pdf</URL>
+                <CitationText>ACMG Algorithm, FS: Hemoglobin S Screening Result, 2023</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG Algorithm, 2023">
+                <URL>https://www.acmg.net/PDFLibrary/Beta-Thalassemia-Algorithm.pdf</URL>
+                <CitationText>ACMG Algorithm, Hemoglobin F Only or F with Decreased A: Transfusion Dependent or Non Transfusion Dependent beta-Thalassemia; Hb beta 0 Thalassemia; Hb beta+/beta+ Thalassemia; Hb beta0/beta+ Thalassemia Screening Result, 2023</CitationText>
+              </Citation>
+              <XRef ID="C0271980" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="1954" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="10300" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Malaria, susceptibility to</ElementValue>
+                <XRef ID="MONDO:0021024" DB="MONDO"/>
+              </Name>
+              <XRef ID="673" DB="Orphanet"/>
+              <XRef ID="C1970028" DB="MedGen"/>
+              <XRef ID="MONDO:0021024" DB="MONDO"/>
+              <XRef Type="MIM" ID="611162" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9056517" SubmissionDate="2024-04-19" ContributesToAggregateClassification="true" DateLastUpdated="2024-04-20" DateCreated="2024-04-20">
+        <ClinVarSubmissionID localKey="104766109|Orphanet:ORPHA848" submittedAssembly="GRCh38"/>
+        <ClinVarAccession Accession="SCV004848835" DateUpdated="2024-04-20" DateCreated="2024-04-20" Type="SCV" Version="1" SubmitterName="Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine" OrgID="21766" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-11-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The c.93-22_95del25 variant in HBB has been reported in individuals affected with Beta Thalassemia (Orkin 1983 PMID: 6190800, Adekile 2015 PMID: 26076396, Al Gazali 2010 PMID: 20437613). It has also been reported in ClinVar (Variation ID 15415) and was absent from large population studies. This deletion encompasses the canonical splice site (+/- 1,2) and is predicted to cause altered splicing leading to an abnormal or absent protein. Loss of function of the HBB gene is an established disease mechanism in autosomal recessive beta thalassemia. In summary, this variant meets criteria to be classified as pathogenic for autosomal recessive beta thalassemia. ACMG/AMP Criteria applied: PM2_Supporting, PVS1, PM3.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_000518.5:exon 2</GeneLocation>
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000011.10:g.5226797_5226821del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="Orphanet" ID="ORPHA848"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14389831</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="5172616" SubmissionDate="2024-04-24" ContributesToAggregateClassification="true" DateLastUpdated="2024-05-01" DateCreated="2022-11-29">
+        <ClinVarSubmissionID localKey="a663178|MedGen:C0950123" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV002687367" DateUpdated="2024-05-01" DateCreated="2022-11-29" Type="SCV" Version="2" SubmitterName="Ambry Genetics" OrgID="61756" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-06-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">6190800</ID>
+          </Citation>
+          <Comment>The c.93-22_95del25 pathogenic mutation, located at the boundary of intron 1 and coding exon 2 of the HBB gene, results from a deletion of 25 nucleotides between nucleotide positions 93-22 and 95. This alteration is predicted to disrupt the canonical splice acceptor site sequence and result in the deletion of three nucleotides from coding exon 2. This alteration was reported in an Asian Indian individual with beta-thalassemia and was shown to abolish the normal splicing when expressed in HeLa cells (Orkin SH et al. J. Biol. Chem., 1983 Jun;258:7249-51). In addition to the clinical data presented in the literature, alterations that disrupt the canonical splice donor site are typically deleterious in nature, this alteration is interpreted as a disease-causing mutation.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Ambry Variant Classification Scheme 2023</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/i9igeqse/ambry_variant_classification_scheme_2023.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.4:c.93-22_95del25</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0950123" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>All AVA3 Novel and Update Variants_103122</SubmissionName>
+          <SubmissionName>FinalClinVarSubmissionFile_20140101to20240315_ava3_1</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3967713" SubmissionDate="2025-08-19" ContributesToAggregateClassification="true" DateLastUpdated="2025-09-06" DateCreated="2021-11-29">
+        <ClinVarSubmissionID localKey="2c0a24aa6e941f8be7b60d754e84c72fcd8c28afcfd5703f284095c8bf5b0bbe|not provided" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV002024952" DateUpdated="2025-09-06" DateCreated="2021-11-29" Type="SCV" Version="4" SubmitterName="Revvity Omics, Revvity" OrgID="167595" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-07-08">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.5:c.93-22_95del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10694847</SubmissionName>
+          <SubmissionName>SUB12926214</SubmissionName>
+          <SubmissionName>SUB14173319</SubmissionName>
+          <SubmissionName>SUB15540076</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="36970" SubmissionDate="2017-12-12" ContributesToAggregateClassification="false" DateLastUpdated="2018-05-09" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="141900.0352_BETA-ZERO-THALASSEMIA" title="HBB, IVS1, 25-BP DEL_BETA-ZERO-THALASSEMIA"/>
+        <ClinVarAccession Accession="SCV000036970" DateUpdated="2018-05-09" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="1983-07-25">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">Deletion of 25 nucleotides that removed the acceptor splice site of IVS1 was found in an Asian Indian by Orkin et al. (1983).</Attribute>
+              <Citation>
+                <ID Source="PubMed">6308558</ID>
+              </Citation>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <Name>HBB, IVS1, 25-BP DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">IVS1, 25-BP DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="141900.0352" Type="Allelic variant"/>
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">BETA-ZERO-THALASSEMIA</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="4015689" SubmissionDate="2025-01-28" ContributesToAggregateClassification="true" DateLastUpdated="2025-03-11" DateCreated="2022-01-08">
+        <ClinVarSubmissionID localKey="2222927|MedGen:C3661900" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV002049943" DateUpdated="2025-03-11" DateCreated="2022-01-08" Type="SCV" Version="3" SubmitterName="ARUP Laboratories, Molecular Genetics and Genomics, ARUP Laboratories" OrgID="25969" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-07-22">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The HBB c.93-22_95del variant (also known as IVS-1 25 bp del, HbVarID: 974, rs193922563) is reported in the literature in several individuals with beta-thalassemia (Adekile 2015, Miri-Moghaddam 2016, Orkin 1983, HbVar database). This variant was found in three siblings of one family, all of whom also carried an additional pathogenic variant (Adekile 2015). This variant is also reported in ClinVar (Variation ID: 15442). This variant is absent from the Genome Aggregation Database, indicating it is not a common polymorphism. This variant deletes 25 nucleotides and abolishes the canonical splice acceptor site of intron 1, which is likely to disrupt gene function. Indeed, RNA analyses of cells expressing this variant show a lack of properly spliced transcripts (Orkin 1983). Based on available information, this variant is considered to be pathogenic. References: Link to HbVar database: https://globin.bx.psu.edu/hbvar/menu.html Adekile AD et al. Clinical and Molecular Characteristics of Non-Transfusion-Dependent Thalassemia in Kuwait. Hemoglobin. 2015;39(5):320-6. PMID: 26076396. Miri-Moghaddam E et al. Molecular Characterization of ÃŸ-Thalassemia Intermedia in Southeast Iran. Hemoglobin. 2016 Jun;40(3):173-8. PMID: 27117567. Orkin SH et al. Inactivation of an acceptor RNA splice site by a short deletion in beta-thalassemia. J Biol Chem. 1983 Jun 25;258(12):7249-51. PMID: 6190800.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ARUP Molecular Germline Variant Investigation Process 2024</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/xwiqgyug/arup_molecular_germline_variant_investigation_process_arup-info-0022_2024.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000011.9:g.5248028_5248052del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3661900" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>2023 ARUP ClinVar submission</SubmissionName>
+          <SubmissionName>2024 ARUP ClinVar Submission</SubmissionName>
+          <SubmissionName>ARUP Molecular 2021</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="10407801" SubmissionDate="2025-09-28" ContributesToAggregateClassification="true" DateLastUpdated="2025-10-05" DateCreated="2024-11-30">
+        <ClinVarSubmissionID localKey="NM_000518.5:c.93-22_95del|OMIM:613985"/>
+        <ClinVarAccession Accession="SCV005417782" DateUpdated="2025-10-05" DateCreated="2024-11-30" Type="SCV" Version="2" SubmitterName="Juno Genomics, Hangzhou Juno Genomics, Inc" OrgID="506213" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment Type="public">Absent from controls (or at extremely low frequency if recessive) in Genome Aggregation Database, Exome Sequencing Project, 1000 Genomes Project, or Exome Aggregation Consortium.;Null variant in a gene where loss of function (LOF) is a known mechanism of disease.;The prevalence of the variant in affected individuals is significantly increased compared to the prevalence in controls.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.5:c.93-22_95del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613985" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14897235</SubmissionName>
+          <SubmissionName>SUB15673088</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="2869059" SubmissionDate="2026-02-26" ContributesToAggregateClassification="true" DateLastUpdated="2026-04-04" DateCreated="2021-01-02">
+        <ClinVarSubmissionID localKey="NM_000518.5:c.93-22_95delTGGTCTATTTTCCCACCCTTAGGCT|Beta thalassemia" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001453784" DateUpdated="2026-04-04" DateCreated="2021-01-02" Type="SCV" Version="2" SubmitterName="Natera, Inc." OrgID="500034" OrganizationCategory="laboratory" OrgAbbreviation="Natera"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2026-01-21">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">36703223</ID>
+          </Citation>
+          <Comment Type="public">The c.93-22_95delTGGTCTATTTTCCCACCCTTAGGCT variant in HBB is a deletion variant affecting a canonical splice acceptor site. This variant is expected to result in nonsense mediated decay, truncation, or a dysfunctional protein product. This variant is rare in the general population with a frequency below the threshold expected for the associated phenotype(s). This variant has been observed in one or more individuals affected with the associated recessive disease, as either homozygous or compound heterozygous with a second variant (PMID: 36703223). Given the available evidence, this variant is classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Natera Variant Classification Schema (03/2026)</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/msoyoim1axrv4ddm/natera_clinvar_assertion_criteria_20260328.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.5:c.93-22_95delTGGTCTATTTTCCCACCCTTAGGCT</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Beta thalassemia</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB16008810</SubmissionName>
+          <SubmissionName>SUB8808661</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="56814" SubmissionDate="2021-10-22" ContributesToAggregateClassification="true" DateLastUpdated="2021-10-30" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="NM_000518.4:c.93-22_95del25|MedGen:C0005283" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV000052664" DateUpdated="2021-10-30" DateCreated="2013-04-04" Type="SCV" Version="4" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-09-27">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">6190800</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23637309</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">26076396</ID>
+          </Citation>
+          <Comment>Variant summary: HBB c.93-22_95del25 is located in a canonical splice-site and is predicted to affect mRNA splicing resulting in a significantly altered protein due to either exon skipping, shortening, or inclusion of intronic material. Several computational tools predict a significant impact on normal splicing: five predict the variant abolishes a 3 prime acceptor site, which has been confirmed by a functional study (Orkin_1983). This variant was absent in 251322 control chromosomes (gnomAD). c.93-22_95del25 has been reported in the literature in individuals affected with Beta Thalassemia (Orkin_1983, Adekile_2015). These data indicate that the variant is likely to be associated with disease. Three clinical diagnostic laboratories have submitted clinical-significance assessments for this variant to ClinVar after 2014 without evidence for independent evaluation. All laboratories classified the variant as pathogenic. Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.4:c.93-22_95del25</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0005283" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10541510</SubmissionName>
+          <SubmissionName>SUB6341163</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3877972" SubmissionDate="2021-10-04" ContributesToAggregateClassification="false" DateLastUpdated="2021-10-30" DateCreated="2021-10-30">
+        <ClinVarSubmissionID localKey="NM_000518.4:c.93-22_95del|not specified" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001984021" DateUpdated="2021-10-30" DateCreated="2021-10-30" Type="SCV" Version="1" SubmitterName="Dubai Health Genomic Medicine Center, Dubai Health" OrgID="507199" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-07-21">
+          <ReviewStatus>flagged submission</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.4:c.93-22_95del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not specified</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Comment Type="public">The c.93-22_95del variant in HBB is a well-known beta-zero (B0) allele (HbVar ID: 974). The variant affects the splice acceptor site of HBB exon 2 and has been experimentally shown to cause defective mRNA splicing (PMID: 6190800) which is then predicted to lead to protein loss of function. In summary this variant meets our criteria to be classified as pathogenic.</Comment>
+        <Comment DataSource="NCBI" Type="FlaggedComment">Reason: This record appears to be redundant with a more recent record from the same submitter.</Comment>
+        <Comment DataSource="NCBI" Type="FlaggedComment">Notes: SCV001984021 appears to be redundant with SCV002818275.</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB10465084</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="5002465" SubmissionDate="2022-12-11" ContributesToAggregateClassification="true" DateLastUpdated="2022-12-17" DateCreated="2022-08-08">
+        <ClinVarSubmissionID localKey="sa_pathology/molecular_genetics_frome_rd/vc14178" localKeyIsSubmitted="1"/>
+        <ClinVarAccession Accession="SCV002556511" DateUpdated="2022-12-17" DateCreated="2022-08-08" Type="SCV" Version="2" SubmitterName="Genetics and Molecular Pathology, SA Pathology" OrgID="506043" OrganizationCategory="laboratory"/>
+        <AdditionalSubmitters>
+          <SubmitterDescription OrgID="508197" SubmitterName="Shariant Australia, Australian Genomics" Type="behalf" OrganizationCategory="consortium"/>
+        </AdditionalSubmitters>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-07-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>PVS1, PS3, PM2, PP4, PP5</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">ALLELE_1960</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.5:c.93-22_95del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613985" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>submission_33</SubmissionName>
+          <SubmissionName>submission_36</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="5502758" SubmissionDate="2022-12-17" ContributesToAggregateClassification="true" DateLastUpdated="2023-01-07" DateCreated="2023-01-07">
+        <ClinVarSubmissionID localKey="NM_000518.5:c.93-22_95del|not provided" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV002818275" DateUpdated="2023-01-07" DateCreated="2023-01-07" Type="SCV" Version="1" SubmitterName="Dubai Health Genomic Medicine Center, Dubai Health" OrgID="507199" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-12-17">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.5:c.93-22_95del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12445851</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3555444" SubmissionDate="2022-07-20" ContributesToAggregateClassification="true" DateLastUpdated="2023-03-04" DateCreated="2021-09-08">
+        <ClinVarSubmissionID localKey="GDXSV:233107" localKeyIsSubmitted="1"/>
+        <ClinVarAccession Accession="SCV001813003" DateUpdated="2023-03-04" DateCreated="2021-09-08" Type="SCV" Version="3" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-07-08">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Canonical splice site variant in a gene for which loss-of-function is a known mechanism of disease; Not observed at significant frequency in large population cohorts (gnomAD); This variant is associated with the following publications: (PMID: 6308558, 35467101, 6190800)</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">GeneDx Variant Classification Process June 2021</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/fc81e176/genedx_variant_classification_process_june_2021.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="hg19" Chr="11" alternateAllele="-" referenceAllele="AGCCTAAGGGTGGGAAAATAGACCA" start="5248027" stop="5248051"/>
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">GDX:1250752</Name>
+          </OtherNameList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not Provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>GeneDX_Clinvar_Submission_117_20220720054205</SubmissionName>
+          <SubmissionName>GeneDX_Clinvar_Submission_27_20210820101303</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="7171658" SubmissionDate="2023-03-09" ContributesToAggregateClassification="true" DateLastUpdated="2023-03-18" DateCreated="2023-03-18">
+        <ClinVarSubmissionID localKey="11-5248026-CAGCCTAAGGGTGGGAAAATAGACCA-C" localKeyIsSubmitted="1" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV003841985" DateUpdated="2023-03-18" DateCreated="2023-03-18" Type="SCV" Version="1" SubmitterName="3billion" OrgID="507830" OrganizationCategory="other" OrgAbbreviation="3billion"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-02-23">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The variant is not observed in the gnomAD v2.1.1 dataset. This variant was predicted to alter splicing and result in a loss or disruption of normal protein function. Multiple pathogenic loss-of-function variants are reported downstream of the variant. The variant has been reported at least twice as pathogenic with clinical assertions and evidence for the classification (ClinVar ID: VCV000015442). Therefore, this variant is classified as Pathogenic according to the recommendation of ACMG/AMP guideline.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001903"/>
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002240"/>
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0011902"/>
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002155"/>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.5:c.93-22_95del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613985" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12919228</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="7806402" SubmissionDate="2023-11-24" ContributesToAggregateClassification="false" DateLastUpdated="2023-12-02" DateCreated="2023-12-02">
+        <ClinVarSubmissionID localKey="NM_000518.5:c.93-22_95del|OMIM:613985" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV004171643" DateUpdated="2023-12-02" DateCreated="2023-12-02" Type="SCV" Version="1" SubmitterName="Zotz-Klimas Genetics Lab, MVZ Zotz Klimas" OrgID="507243" OrganizationCategory="laboratory" OrgAbbreviation="ZK-GL"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-11-24">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.5:c.93-22_95del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613985" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13998455</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="8987045" SubmissionDate="2024-03-26" ContributesToAggregateClassification="true" DateLastUpdated="2024-04-06" DateCreated="2024-04-06">
+        <ClinVarSubmissionID localKey="NM_000518.5:c.93-22_95del|OMIM:611162" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV004806691" DateUpdated="2024-04-06" DateCreated="2024-04-06" Type="SCV" Version="1" SubmitterName="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre" OrgID="500184" OrganizationCategory="laboratory" OrgAbbreviation="DGU-KFSHRC"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-03-26">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.5:c.93-22_95del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="611162" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14340311</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="9792683" SubmissionDate="2024-06-13" ContributesToAggregateClassification="true" DateLastUpdated="2024-06-17" DateCreated="2024-05-26">
+        <ClinVarSubmissionID localKey="30200303720_1" localKeyIsSubmitted="1" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV005044766" DateUpdated="2024-06-17" DateCreated="2024-05-26" Type="SCV" Version="2" SubmitterName="Neuberg Centre For Genomic Medicine, NCGM" OrgID="508108" OrganizationCategory="laboratory" OrgAbbreviation="NCGM"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The invariant splice acceptor variant c.93-22_95del in HBB gene has been observed in compound heterozygous state in multiple individuals with beta-thalassemia Adekile et. al., 2015; Thein SL, 2013. This variant is also known as IVS-1, 25bp del. Studies have shown that this variant alters HBB gene expression Orkin et. al., 1983. The c.93-22_95del variant is novel not in any individuals in gnomAD Exomes and 1000 Genomes. This variant has been reported to the ClinVar database as Pathogenic by multiple submitters. This variant results in the deletion of part of exon 2 c.93-22_95del of the HBB gene. It is expected to disrupt RNA splicing. Variants that disrupt the donor or acceptor splice site typically lead to a loss of protein function Baralle et. al., 2005, and loss-of-function variants in HBB are known to be pathogenic Thein SL, 2013. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet DateLastEvaluated="2023-03-01" Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001871"/>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.5:c.93-22_95del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613985" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14457248</SubmissionName>
+          <SubmissionName>SUB14531283</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="9880675" SubmissionDate="2025-03-04" ContributesToAggregateClassification="true" DateLastUpdated="2025-03-11" DateCreated="2024-08-04">
+        <ClinVarSubmissionID localKey="NM_000518.5:c.93-22_95del|not provided"/>
+        <ClinVarAccession Accession="SCV005090877" DateUpdated="2025-03-11" DateCreated="2024-08-04" Type="SCV" Version="2" SubmitterName="Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital" OrgID="505691" OrganizationCategory="laboratory" OrgAbbreviation="GM4113, RH"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-03-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">26076396</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">6190800</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000518.5:c.93-22_95del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14635466</SubmissionName>
+          <SubmissionName>SUB15152328</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="2382437" SubmissionDate="2026-02-05" ContributesToAggregateClassification="true" DateLastUpdated="2026-02-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="5398616|MedGen:CN517202" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001217019" DateUpdated="2026-02-15" DateCreated="2020-04-15" Type="SCV" Version="6" SubmitterName="Labcorp Genetics (formerly Invitae), Labcorp" OrgID="500031" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-02-08">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">16199547</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23637309</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">6190800</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">20437613</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23637309</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">26076396</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">6190800</ID>
+          </Citation>
+          <Comment Type="public">This variant results in the deletion of part of exon 2 (c.93-22_95del) of the HBB gene. It is expected to disrupt RNA splicing. Variants that disrupt the donor or acceptor splice site typically lead to a loss of protein function (PMID: 16199547), and loss-of-function variants in HBB are known to be pathogenic (PMID: 23637309). This variant is not present in population databases (gnomAD no frequency). This variant has been observed in individual(s) with beta-thalassemia (PMID: 6190800, 20437613, 23637309, 26076396). This variant is also known as IVS-1, 25bp del. ClinVar contains an entry for this variant (Variation ID: 15442). Studies have shown that this variant alters HBB gene expression (PMID: 6190800). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000011.9:g.5248027_5248051del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12508014</SubmissionName>
+          <SubmissionName>SUB14200283</SubmissionName>
+          <SubmissionName>SUB15075422</SubmissionName>
+          <SubmissionName>SUB15990450</SubmissionName>
+          <SubmissionName>SUB6933801</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9056517" TraitType="Disease" MappingType="XRef" MappingValue="ORPHA848" MappingRef="Orphanet">
+        <MedGen CUI="C0005283" Name="beta Thalassemia"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5172616" TraitType="Disease" MappingType="XRef" MappingValue="C0950123" MappingRef="MedGen">
+        <MedGen CUI="C0950123" Name="Inborn genetic diseases"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3967713" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="36970" TraitType="Disease" MappingType="Name" MappingValue="BETA-ZERO-THALASSEMIA" MappingRef="Preferred">
+        <MedGen CUI="C0271980" Name="Beta zero thalassemia"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4015689" TraitType="Disease" MappingType="XRef" MappingValue="C3661900" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="10407801" TraitType="Disease" MappingType="XRef" MappingValue="613985" MappingRef="OMIM">
+        <MedGen CUI="CN322236" Name="Beta-thalassemia HBB/LCRB"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2869059" TraitType="Disease" MappingType="Name" MappingValue="Beta thalassemia" MappingRef="Preferred">
+        <MedGen CUI="C0005283" Name="beta Thalassemia"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="56814" TraitType="Disease" MappingType="XRef" MappingValue="C0005283" MappingRef="MedGen">
+        <MedGen CUI="C0005283" Name="beta Thalassemia"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3877972" TraitType="Disease" MappingType="Name" MappingValue="not specified" MappingRef="Preferred">
+        <MedGen CUI="CN169374" Name="not specified"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5002465" TraitType="Disease" MappingType="XRef" MappingValue="613985" MappingRef="OMIM">
+        <MedGen CUI="CN322236" Name="Beta-thalassemia HBB/LCRB"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5502758" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3555444" TraitType="Disease" MappingType="Name" MappingValue="Not Provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7171658" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001903" MappingRef="HP">
+        <MedGen CUI="C0002871" Name="Anemia"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7171658" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002240" MappingRef="HP">
+        <MedGen CUI="C0019209" Name="Hepatomegaly"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7171658" TraitType="Finding" MappingType="XRef" MappingValue="HP:0011902" MappingRef="HP">
+        <MedGen CUI="C0349705" Name="Abnormal hemoglobin"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7171658" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002155" MappingRef="HP">
+        <MedGen CUI="C0813230" Name="Hypertriglyceridemia"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7171658" TraitType="Disease" MappingType="XRef" MappingValue="613985" MappingRef="OMIM">
+        <MedGen CUI="CN322236" Name="Beta-thalassemia HBB/LCRB"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7806402" TraitType="Disease" MappingType="XRef" MappingValue="613985" MappingRef="OMIM">
+        <MedGen CUI="CN322236" Name="Beta-thalassemia HBB/LCRB"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="8987045" TraitType="Disease" MappingType="XRef" MappingValue="611162" MappingRef="OMIM">
+        <MedGen CUI="C1970028" Name="Malaria, susceptibility to"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9792683" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001871" MappingRef="HP">
+        <MedGen CUI="C0850715" Name="Abnormality of blood and blood-forming tissues"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9792683" TraitType="Disease" MappingType="XRef" MappingValue="613985" MappingRef="OMIM">
+        <MedGen CUI="CN322236" Name="Beta-thalassemia HBB/LCRB"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9880675" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2382437" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>
